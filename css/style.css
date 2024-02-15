@@ -64,7 +64,7 @@ button{
 
 /* 네비 바 */
 header .fas{
-    /* display: none; */
+    display: none;
 }
 header{
     width: 100%;
