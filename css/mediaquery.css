@@ -1,0 +1,241 @@
+/* 모바일 미디어 쿼리 */
+@media screen and (max-width:768px){
+    .logo_mask{
+        height: 25px;
+    }
+
+    /****** p1 *****/
+    .main{
+        height: 700px;
+    }
+    /* 헤더 */
+    header{
+        /* height: 50px; */
+    }
+    .main_logo{
+        width: 120px;
+        height: auto;
+        margin: 0 auto;
+    }
+    /* nav */
+    .nav_bar{
+        position: fixed;
+        top: 0; right: -200px;
+        height: 100vh;
+        width: 200px;
+        background: #E75C12;
+        z-index: 100;
+        transition: 1s;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .nav_bar ul li{
+        display: block;
+        text-align: left;
+    }
+    i.fas.fa-ellipsis, .nav_bar i.fas.fa-xmark{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: left;
+    }
+    i.fas.fa-ellipsis{
+        right: 20px;
+        position: absolute;
+    }
+    .nav_bar .call{
+        display: none;
+    }
+    .hotdog_1{
+        width: 150px;
+        left: 0; top: 100px;
+    }
+    .hotdog_2{
+        width: 350px;
+        left: 150px; top: 250px;
+    }
+    .hotdog_3{
+        width: 150px;
+        right: 0; bottom: -30px;
+    }
+
+    /****** p2 ******/
+    .p2{
+        flex-direction: column;
+    }
+    .p2 .left{
+        display: none;
+    }
+    .p2 .right{
+        width: 100%;
+    }
+    .rocket{
+        display: none;
+    }
+
+    /****** p3 ******/
+    .p3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .p3 .left{
+        margin: 0 auto;
+        z-index: 5;
+    }
+    .p3 .arrow{
+        font-size: 17px;
+    }
+    .p3 .plate{
+        width: 400px;
+        height: auto;
+        opacity: 0.5;
+        margin: 0 auto;
+        top: 50px;
+        position: absolute;
+    }
+
+    /***** p4 ******/
+    .p4{
+        height: auto;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .p4 div:nth-child(1), .p4 div:nth-child(3){
+        width: 100%;
+        height: 600px;
+    }
+    .p4 > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 150px;
+    }
+
+    /***** p5 ******/
+    .p5{
+        height: 600px;
+    }
+    .p5 .stamp{
+        width: 250px;
+        left: -80px; bottom: 50px;
+    }
+    .p5 .coupon{
+        display: none;
+    }
+    .p5 .coupon_m{
+        display: block;
+        width: 300px;
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 150px;
+        opacity: 0.8;
+        z-index: 1;
+    }
+    .p5 p.article{
+        font-size: 50px;
+        line-height: 75px;
+        margin: 100px;
+        margin-right: 55px;
+        
+    }
+
+    /***** p6 ******/
+    .p6, .p6 .left{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+    }
+    .p6 .left img{
+        margin: 15px 0;
+    }
+    .p6 .icon{
+        display: none;
+    }
+    .p6 .right img{
+        width: 400px;
+    }
+
+    /***** p7 *****/
+    .p7{
+        height: 900px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+    }
+    .p7 > div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .p7 .left{
+        height: 300px;
+        left: 0;top: 100px;
+    }
+    .p7 .left img{
+        width: 300px;
+    }
+    .p7 .right{
+        width: 100%;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0;
+        top: 400px;
+    }
+    .p7 .right > *{
+        margin: 0;
+    }
+    .p7 p.article{
+        font-size: 50px;
+        line-height: 75px;
+    }
+
+    /***** p8 *****/
+    .p8_ask{
+        height: 230px;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .p8_ask p{
+        margin-bottom: 20px;
+        margin-left: 60px;
+    }
+    .p8_ask form{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        justify-content: center;
+        margin-left: 60px;
+    }
+    .p8_ask form input{
+        margin: 10px 0;
+        padding: 0;
+    }
+    
+    .p8_ask form input.name,
+    .p8_ask form button{
+        margin: 0;
+    }
+}
+
+/* 테블릿 미디어 쿼리 */
+@media screen and (min-width:769px) and (max-width:1024px){
+
+}
