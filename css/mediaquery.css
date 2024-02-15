@@ -6,7 +6,7 @@
 
     /****** p1 *****/
     .main{
-        height: 700px;
+        height: 500px;
     }
     /* 헤더 */
     .main_logo{
@@ -48,15 +48,15 @@
         display: none;
     }
     .hotdog_1{
-        width: 150px;
+        width: 100px;
         left: 0; top: 100px;
     }
     .hotdog_2{
-        width: 350px;
-        left: 150px; top: 250px;
+        width: 250px;
+        left: 90px; top: 200px;
     }
     .hotdog_3{
-        width: 150px;
+        width: 100px;
         right: 0; bottom: -30px;
     }
 
@@ -69,9 +69,33 @@
     }
     .p2 .right{
         width: 100%;
+        height: 500px;
+    }
+    .p2 .right > *{
+        margin-left: 100px;
+    }
+    .p2 .right p.article{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .p2 .right form input{
+        width: 250px;
+        height: auto;
+        font-size: 15px;
+    }
+    .p2 .right form input::placeholder{
+        font-size: 10px;
+    }
+    .p2 .right form img{
+        width: 12px;
+        height: auto;
     }
     .rocket{
         display: none;
+    }
+    .p2 .right form .search{
+        width: 22px;
+        right: 105px; top: 5px;
     }
 
     /****** p3 ******/
@@ -112,7 +136,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        padding-left: 150px;
+        padding-left: 50px;
     }
 
     /***** p5 ******/
@@ -120,7 +144,7 @@
         height: 600px;
     }
     .p5 .stamp{
-        width: 250px;
+        width: 200px;
         left: -80px; bottom: 50px;
     }
     .p5 .coupon{
@@ -128,10 +152,10 @@
     }
     .p5 .coupon_m{
         display: block;
-        width: 300px;
+        width: 250px;
         position: absolute;
         margin-top: 150px;
-        margin-left: 150px;
+        margin-left: 80px;
         opacity: 0.8;
         z-index: 1;
     }
@@ -140,7 +164,8 @@
         line-height: 75px;
         margin: 100px;
         margin-right: 55px;
-        
+        z-index: 100;
+        position: absolute;
     }
 
     /***** p6 ******/

@@ -235,12 +235,14 @@ header{
 .p2 .right form input::placeholder{
     color: rgba(231,92,18, 0.8);
     font-size: 15px;
+    font-weight: 500;
 }
-.p2 .right form img{
-    width: 18px;
+.p2 .right form .search{
+    width: 30px;
     height: auto;
+    border: none;
     position: absolute;
-    right: 15px; top: 15px;
+    right: 15px; top: 12px;
 }
 
 /********** p3 **********/
