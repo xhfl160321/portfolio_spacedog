@@ -63,7 +63,7 @@ button{
 }
 
 /* 네비 바 */
-header .fas{
+header i.fas{
     display: none;
 }
 header{
