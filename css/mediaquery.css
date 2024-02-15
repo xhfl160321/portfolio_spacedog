@@ -255,6 +255,29 @@
     .p8_ask form button{
         margin: 0;
     }
+
+    /* footer */
+    footer .footer .ask p{
+        font-size: 10px;
+        line-height: 25px;
+    }
+    footer .footer .ask p:nth-child(2){
+        font-size: 17px;
+    }
+    footer .footer .logo h6{
+        font-size: 7px;
+    }
+    footer .footer .info img{
+        width: 100px;
+    }
+    footer .footer .info ul li{
+        font-size: 7px;
+        line-height: 10px;
+    }
+    footer .stamp{
+        width: 200px;
+
+    }
 }
 
 /* 테블릿 미디어 쿼리 */
