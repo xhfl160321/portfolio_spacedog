@@ -9,7 +9,6 @@
     padding: 0;
     margin: 0;
 }
-
 .clearfix::before,
 .clearfix::after {
     display: block;
@@ -296,43 +295,55 @@ header{
     display: flex;
     justify-content: center
 }
-.p4 div:nth-child(1), .p4 div:nth-child(3){
+.p4 .menu{
+    width: 1080px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.p4 .menu div{
+    width: 80%;
+}
+.p4 .menu div:nth-child(1), .p4 div:nth-child(3){
     width: 360px;
     height: 100%;
     background: #E75C12;
     display: flex;
     flex-direction: column;
 }
-.p4 div:nth-child(2){
+.p4 .menu div:nth-child(2){
     width: 360px;
     height: 100%;
     background: inherit;
 }
 
-.p4 div:nth-child(1) p.title,
-.p4 div:nth-child(2) p.title,
-.p4 div:nth-child(3) p.title {
+.p4 .menu div:nth-child(1) h4,
+.p4 .menu div:nth-child(2) h4,
+.p4 .menu div:nth-child(3) h4 {
     font-size: 40px;
     font-weight: 600;
     margin-top: 30px;
     margin-left: 30px;
     opacity: 0.6;
+    color: #f2f2f2;
 }
-.p4 div:nth-child(1) img,
-.p4 div:nth-child(3) img{
+.p4 .menu div:nth-child(1) img,
+.p4 .menu div:nth-child(3) img{
     width: 230px;
     height: auto;
     margin-top: 60px;
     margin-left: 60px;
 }
-.p4 div:nth-child(2) img{
+.p4 .menu div:nth-child(2) img{
     width: 280px;
     height: auto;
     margin-left: 30px;
 }
-.p4 div:nth-child(1) p.article,
-.p4 div:nth-child(2) p.article,
-.p4 div:nth-child(3) p.article {
+.p4 .menu div:nth-child(1) p.article,
+.p4 .menu div:nth-child(2) p.article,
+.p4 .menu div:nth-child(3) p.article {
     font-family: 'Cafe24Danjunghae';
     font-size: 17px;
     font-weight: lighter;
@@ -341,12 +352,12 @@ header{
     line-height: 25px;
     color: #1E2D40;
 }
-.p4 div:nth-child(2) p.article{
+.p4 .menu div:nth-child(2) p.article{
     color: #f2f2f2;
 }
-.p4 div:nth-child(1) p.article span, 
-.p4 div:nth-child(2) p.article span,
-.p4 div:nth-child(3) p.article span {
+.p4.menu div:nth-child(1) p.article span, 
+.p4.menu div:nth-child(2) p.article span,
+.p4.menu div:nth-child(3) p.article span {
     font-size: 25px;
     font-weight: 400;
     line-height: 60px;
@@ -519,7 +530,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-.p8_ask p{
+.p8_ask h5{
     font-size: 22px;
     color: #E75C12;
     font-weight: 500;
@@ -634,4 +645,5 @@ footer .stamp{
     right: -50px;
     bottom: -25px;
     opacity: 0.8;
+    overflow: hidden;
 }
