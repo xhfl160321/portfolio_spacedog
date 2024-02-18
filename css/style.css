@@ -152,6 +152,9 @@ header{
     position: relative;
     flex-direction: row;
 }
+.p2 .left{
+    margin-left: 400px;
+}
 .p2 a.title{
     display: flex;
     flex-direction: row;
@@ -159,13 +162,10 @@ header{
     align-items: center;
     margin-bottom: 30px;
 }
-.p2 a.title p.p_title{
+.p2 a.title h5{
     font-size: 17px;
     font-weight: 600;
     margin-left: 30px;
-}
-.p2 .left{
-    margin-left: 400px;
 }
 .hotdog_icon, .store_icon, .helmet{
     width: 40px;
@@ -214,7 +214,7 @@ header{
 .p2 .right > *{
     margin-left: 200px;
 }
-.p2 .right p{
+.p2 .right p, .p2 .right h5{
     color: #1E2D40;
 }
 .p2 .right form{
