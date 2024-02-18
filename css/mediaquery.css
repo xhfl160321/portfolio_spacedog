@@ -1,5 +1,8 @@
 /* 모바일 미디어 쿼리 */
 @media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
     .logo_mask{
         height: 25px;
     }
@@ -113,7 +116,7 @@
         font-size: 17px;
     }
     .p3 .plate{
-        width: 400px;
+        width: 350px;
         height: auto;
         opacity: 0.5;
         margin: 0 auto;
@@ -187,7 +190,7 @@
         display: none;
     }
     .p6 .right img{
-        width: 400px;
+        width: 350px;
     }
 
     /***** p7 *****/
@@ -278,8 +281,9 @@
         line-height: 10px;
     }
     footer .stamp{
-        width: 200px;
-
+        width: 150px;
+        right: -25px;
+        bottom: -5px;
     }
 }
 
