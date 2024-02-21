@@ -285,6 +285,17 @@
         right: -25px;
         bottom: -5px;
     }
+
+    /* sub page */
+    .sub_p1 div.img img{
+        width: 250px;
+        height: auto;
+    }
+    .sub_p1 div.artcle h2{
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-top: 20px;
+    }
 }
 
 /* 테블릿 미디어 쿼리 */
